@@ -14,6 +14,10 @@ A research conducted by the United States National Institute of Health (NIH) rev
 
 My machine learning model aims to be that second opinion. My model was trained on 5216 patients X-Ray images, and validated on 624 patients. The model was trained at 50 epochs to ensure that the model is neither overfitting nor underfitting, and the model that leads to the highest validation accuracy was saved. It is pivotal that my model has a higher prediction accuracy that conventional doctors, otherwise the machine learning would be pointless. 
 
+Method
+-
+To reduce the likelihood of over training, my script will only save the next training model if it has a higher validation accuracy. 
+
 Results
 -
 My model was able to reach a peak of 93.1% prediction accuracy, which is significanly higher than the diagnosis accuracy of doctors (72.7%). 
